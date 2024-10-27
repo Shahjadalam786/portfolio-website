@@ -12,8 +12,42 @@
         }
 
         body {
-            background-color: rgb(1, 1, 65);
+            background-color: rgb(3, 3, 44);
             color: white;
+            font-family: poppins,sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 60px;
+            background-color: rgb(20, 20, 82);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        .left{
+            font-size: 1.6rem;
+        }
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            margin: 23px 0;
+        }
+        .firstSection div{
+            width: 30%;
+        }
+        .leftSection{
+            background-color: red;
+            width: 34;
+        }
+        .rightSection{
+            background-color: red;
         }
     </style>
 </head>
@@ -21,10 +55,29 @@
 <body>
     <header>
         <nav>
-            <div class="left"></div>
-            <div class="right"></div>
+            <div class="left">Shahjad's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Projects</li>
+                    <li>Contact Me</li>
+                </ul>
+            </div>
         </nav>
     </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                left
+            </div>
+            <div class="rightSection">
+                right
+            </div>
+
+        </section>
+    </main>
 </body>
 
 </html>
