@@ -184,6 +184,10 @@ CodeAlpha Task 3 complete
                 <div>and I am a passionate</div>
                 <div>Web Developer</div>
                 <span id="element"></span>
+                <div class="button">
+                <div class="btn"></div>
+                <div class="btn"></div>
+                </div>
             </div>
             <div class="rightSection">
                 <img src="wpp.png" alt="">

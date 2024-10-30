@@ -4,157 +4,178 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Portfolio website</title>
+    
     <style>
         * {
-            margin: 0;
-            padding: 0;
-        }
+    margin: 0;
+    padding: 0;
+}
 
-        body {
-            background-color: rgb(13, 13, 37);
-            color: white;
-            font-family: poppins, sans-serif;
-        }
+body {
+    background-color: rgb(13, 13, 37);
+    color: white;
+    font-family: poppins, sans-serif;
+}
 
-        nav {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            height: 60px;
-            background-color: rgb(20, 20, 82);
-        }
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(20, 20, 82);
+}
 
-        nav ul {
-            display: flex;
-            justify-content: center;
-        }
+nav ul {
+    display: flex;
+    justify-content: center;
+}
 
-        nav ul li {
-            list-style: none;
-            margin: 0 23px;
-        }
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
 
-        nav ul li a {
-            text-decoration: none;
-            color: white;
-        }
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
 
-        nav ul li a:hover {
-            color: rgb(130, 130, 209);
-            font-size: 1.1rem;
-        }
+nav ul li a:hover {
+    color: rgb(130, 130, 209);
+    font-size: 1.1rem;
+}
 
-        main hr {
-            border: 0;
-            background: rgb(130, 130, 209);
-            height: 1.2px;
-            margin: 40px 84px;
+main hr {
+    border: 0;
+    background: rgb(130, 130, 209);
+    height: 1.2px;
+    margin: 40px 84px;
 
 
-        }
+}
 
-        .left {
-            font-size: 1.6rem;
-        }
+.left {
+    font-size: 1.6rem;
+}
 
-        .firstSection {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            margin: 20px 0;
-        }
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
 
-        .firstSection>div {
-            width: 20%;
-        }
+.firstSection>div {
+    width: 20%;
+}
 
-        .leftSection {
-            font-size: 1.7rem;
-            margin: 20px;
-        }
+.leftSection {
+    font-size: 1.7rem;
+    margin: 20px;
+}
+.leftSection .button{
+    padding: 40px 0;
+}
 
-        .rightSection img {
-            width: 115%;
-            margin: 0;
-        }
+.leftSection .btn{
+    padding: 2px;
+    background: rgb(0, 0, 61);
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
 
-        .purple {
-            color: rgba(22, 198, 241, 0.979);
-        }
+.rightSection img {
+    width: 115%;
+    margin: 0;
+}
 
-        #element {
-            color: rgba(22, 198, 241, 0.979);
-        }
+.purple {
+    color: rgba(22, 198, 241, 0.979);
+}
 
-        .text-grey {
-            color: grey;
-        }
+#element {
+    color: rgba(22, 198, 241, 0.979);
+}
 
-        .secondSection {
-            max-width: 78vw;
-            margin: auto;
-            height: 80vh;
-        }
+.text-grey {
+    color: grey;
+}
 
-        .secondSection h1 {
-            font-size: 1.5rem;
-        }
+.secondSection {
+    max-width: 78vw;
+    margin: auto;
+    height: 80vh;
+}
 
-        .secondSection .box {
-            background: white;
-            width: 80vw;
-            height: 2px;
-            margin: 56px 0;
-            display: flex;
-        }
+.secondSection h1 {
+    font-size: 1.5rem;
+}
 
-        .secondSection .vertical {
-            height: 93px;
-            width: 1px;
-            background-color: white;
-            margin: 0 140px;
-        }
+.secondSection .box {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
 
-        .image-top {
-            width: 40px;
-            position: relative;
-            top: -40px;
-            left: -10px;
-        }
+.secondSection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 140px;
+}
 
-        .vertical-title {
-            position: relative;
-            top: 75px;
-            width: 150px;
-        }
+.image-top {
+    width: 40px;
+    position: relative;
+    top: -40px;
+    left: -10px;
+}
 
-        .vertical-dsc {
-            position: relative;
-            top: 86px;
-            color: grey;
-            width: 150px;
-            font-size: 9px;
-        }
-        footer{
-            background-color: rgb(19, 3, 3);
-        }
-        .footer{
-            display: flex;
-            padding: 23px 122px;
-            justify-content: space-evenly;
-        }
-        .footer ul{
-            list-style: none;
-        }
-        .footer > div{
-            width: 90px;
-        }
-        footer .footer-rights{
-            text-align: center;
-            color: gray;
-        }
+.vertical-title {
+    position: relative;
+    top: 75px;
+    width: 150px;
+}
+
+.vertical-dsc {
+    position: relative;
+    top: 86px;
+    color: grey;
+    width: 150px;
+    font-size: 9px;
+}
+
+footer {
+    background-color: rgb(10, 1, 1);
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer>div {
+    width: 90px;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: gray;
+}
     </style>
+    
 </head>
 
 <body>
@@ -179,6 +200,12 @@
                 <div>and I am a passionate</div>
                 <div>Web Developer</div>
                 <span id="element"></span>
+                <div class="button">
+                    <button class="btn"><a href="resume.pdf">Download Resume</a><br></button>
+                    <button class="btn"><a href="https://github.com/Shahjadalam786/portfolio-website"><b>visit Github</b></a></button>
+                    <button class="btn"><a href="https://www.linkedin.com/in/shahjad-alam-a8b36527b/"><b>visit linkedin</b></a></buttons>
+                </div>
+
             </div>
             <div class="rightSection">
                 <img src="wpp.png" alt="">
@@ -245,11 +272,11 @@
             </div>
             <div class="footer-second">
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Services</li>
-                    <li>Contact</li>
-                    <li>Projects</li>
+                    <li><a href="https://www.instagram.com/shahjadalam786/"><b>Instagram</b></a></li>
+                    <li><a href="https://www.linkedin.com/in/shahjad-alam-a8b36527b/"><b>linkedin</b></a></li>
+                    <li><a href="https://www.facebook.com/people/Shahjad-Alam/pfbid02zvnuDk2soyS8L4YwDJNs1uwvxPZM5UTJjwvatmnWZYpf2dUtczz56XdrwwmDSx7dl/"><b>Facebook</b></a></li>
+                    <li><a href="https://github.com/Shahjadalam786/portfolio-website"><b>Github</b></a></li>
+                    <li><a href="https://www.youtube.com/@indianstudiesinformation7808/featured"><b>YouTube</b></a></li>
                 </ul>
             </div>
             <div class="footer-third">
@@ -263,11 +290,13 @@
             </div>
             <div class="footer-fourth">
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Services</li>
-                    <li>Contact</li>
-                    <li>Projects</li>
+                    <li>Web page</li>
+                    <li>Web Designer</li>
+                    <li>Telegram</li>
+                    <li>shahjadalam8800@gmail.com</li>
+                    <div>
+                    <li> <i class="fas fa-envelope"></i> 9354781864</li>
+                    </div>
                 </ul>
             </div>
         </div>
