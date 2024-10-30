@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(13, 13, 37);
+    color: white;
+    font-family: poppins, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(20, 20, 82);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(130, 130, 209);
+    font-size: 1.1rem;
+}
+
+main hr {
+    border: 0;
+    background: rgb(130, 130, 209);
+    height: 1.2px;
+    margin: 40px 84px;
+
+
+}
+
+.left {
+    font-size: 1.6rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.firstSection>div {
+    width: 20%;
+}
+
+.leftSection {
+    font-size: 1.7rem;
+    margin: 20px;
+}
+
+.rightSection img {
+    width: 115%;
+    margin: 0;
+}
+
+.purple {
+    color: rgba(22, 198, 241, 0.979);
+}
+
+#element {
+    color: rgba(22, 198, 241, 0.979);
+}
+
+.text-grey {
+    color: grey;
+}
+
+.secondSection {
+    max-width: 78vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.secondSection h1 {
+    font-size: 1.5rem;
+}
+
+.secondSection .box {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondSection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 140px;
+}
+
+.image-top {
+    width: 40px;
+    position: relative;
+    top: -40px;
+    left: -10px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 75px;
+    width: 150px;
+}
+
+.vertical-dsc {
+    position: relative;
+    top: 86px;
+    color: grey;
+    width: 150px;
+    font-size: 9px;
+}
+
+footer {
+    background-color: rgb(19, 3, 3);
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer>div {
+    width: 90px;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: gray;
+}
